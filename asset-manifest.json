@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3aa26b95.css",
+    "main.js": "/portfolio/static/js/main.43f59444.js",
+    "static/js/453.acca0757.chunk.js": "/portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/carbon-rerouting.jpg": "/portfolio/static/media/carbon-rerouting.3849d1bdce70bd6dd460.jpg",
+    "static/media/strokes-lyric-poster.jpg": "/portfolio/static/media/strokes-lyric-poster.f8812b288991fb46e885.jpg",
+    "static/media/jellies.jpg": "/portfolio/static/media/jellies.4962dd99af2fcf5c3046.jpg",
+    "static/media/chicago-album.jpg": "/portfolio/static/media/chicago-album.df4a0e6de8b0a5966a22.jpg",
+    "static/media/strokes-album-poster.jpg": "/portfolio/static/media/strokes-album-poster.b28faf46b4370f20f0b3.jpg",
+    "static/media/skincaread.png": "/portfolio/static/media/skincaread.1c9647040f9bdd408e34.png",
+    "static/media/cat-comic.png": "/portfolio/static/media/cat-comic.8ef9db6fdcfde2d4675e.png",
+    "static/media/bh-poster.png": "/portfolio/static/media/bh-poster.30ade628e1e88c500359.png",
+    "static/media/window.jpg": "/portfolio/static/media/window.b3495a9fff7366921ce8.jpg",
+    "static/media/Comforter-Regular.ttf": "/portfolio/static/media/Comforter-Regular.5cfd90f7c4f8f5f91c44.ttf",
+    "static/media/BeVietnamPro-Bold.ttf": "/portfolio/static/media/BeVietnamPro-Bold.b25893558c7f1ad49e5e.ttf",
+    "static/media/BeVietnamPro-LightItalic.ttf": "/portfolio/static/media/BeVietnamPro-LightItalic.fa1d41df7d93ab3cb328.ttf",
+    "static/media/BeVietnamPro-Regular.ttf": "/portfolio/static/media/BeVietnamPro-Regular.48bacce26505d28b25ee.ttf",
+    "static/media/todo-list.png": "/portfolio/static/media/todo-list.fb3c9522e911b1103439.png",
+    "static/media/mail.png": "/portfolio/static/media/mail.9e3f45bf9f236d8705dc.png",
+    "static/media/InBug-White.png": "/portfolio/static/media/InBug-White.183c507635f8f18f6138.png",
+    "index.html": "/portfolio/index.html",
+    "main.3aa26b95.css.map": "/portfolio/static/css/main.3aa26b95.css.map",
+    "main.43f59444.js.map": "/portfolio/static/js/main.43f59444.js.map",
+    "453.acca0757.chunk.js.map": "/portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3aa26b95.css",
+    "static/js/main.43f59444.js"
+  ]
+}
