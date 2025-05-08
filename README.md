@@ -1,1 +1,0 @@
-This is my personal portfolio featuring web development and digital design projects. The site was made with ReactJS and Framer Motion animations. Viewing this site can be done via GitHub pages. 

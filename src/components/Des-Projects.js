@@ -15,7 +15,7 @@ import '../App.css';
 
 const DesProj = () => {
     return (
-        <motion.div className='container' initial={{opacity: 0, scale: 0.5}} animate={{opacity: 1, scale: 1}}>
+        <motion.div className='container4' initial={{opacity: 0, scale: 0.5}} animate={{opacity: 1, scale: 1}}>
             <div className='item2-container'>
                 <div className='column'>
                     <Item2 img={editimg} title='Editorial Design' desc='made with Adobe Photoshop' alt='Editorial Design'/>

@@ -14,24 +14,40 @@
 }
 
 @font-face {
-  font-family: 'paris';
-  src: url('fonts/Parisienne-Regular.ttf');
+  font-family: 'alt';
+  src: url('fonts/MonsieurLaDoulaise-Regular.ttf');
 }
 
 .app {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background-image: url('images/gradient.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
+  background: linear-gradient(-45deg, #ffcccb, #d3c9ff, #c8f0ff, #d6ffd0);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  width: 100vw;
+  min-width: 450px;
   height: 100vh;
+  min-height: 450px;
   color: rgb(34, 34, 34);
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 h1 {
-  font-family: 'paris';
+  font-family: 'alt';
   font-size: 64px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -39,13 +55,13 @@ h1 {
 
 h2 {
   font-family: 'poppins';
-  font-size: 18px;
+  font-size: 1.7vw;
   margin-top: 0px;
 }
 
 h3 {
   font-family: 'poppins-italic';
-  font-size: 14px;
+  font-size: 1.2vw;
 }
 
 h4 {
@@ -54,22 +70,23 @@ h4 {
 }
 
 h5 {
-  font-family: 'paris';
-  font-size: 100px;
-  margin-bottom: -15px;
+  font-family: 'alt';
+  font-size: 9vw;
+  margin-top: 0;
+  margin-bottom: -25px;
 }
 
 h6 {
   font-family: 'poppins-medium';
-  font-size: 24px;
+  font-size: 2vw;
   margin-top: 10px;
   margin-bottom: -5px;
 }
 
 .h7 {
   font-family: 'poppins-italic';
-  font-size: 24px;
-  margin-top: -10px;
+  font-size: 2vw;
+  margin-top: 3vh;
 }
 
 aside {
@@ -77,75 +94,82 @@ aside {
 }
 
 .container {
-  position: fixed;
-  left: 12.5%;
-  right: 12.5%;
-  top: 15%;
-  border-style: solid;
-  border-color:rgb(34, 34, 34);
-  border-width: 2px;
-  border-radius: 20px;
-  width: 75%;
-  height: 70%;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  overflow: scroll;
+  position: relative;
+  top: 45%;
+  transform: translate(0, -40%);
+  margin-left: 12.5vw;
+  overflow: hidden;
+  width: 75vw;
 }
 
 .container2 {
-  position: fixed;
-  top: 17%;
-  left: 25%;
-  right: 25%;
+  background: linear-gradient(rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.082));
+  position: absolute;
+  left: 17%;
+  margin-top: 8%;
   border-style: solid;
-  border-color:rgb(34, 34, 34);
-  border-width: 2px;
-  border-radius: 20px;
+  border-color: rgb(34, 34, 34);
+  border-width: 0.2vw;
+  border-radius: 2vw;
+  box-shadow: 15px 15px 40px 0px rgba(34, 34, 34, 0.2);
   padding: 30px;
-  overflow: scroll;
+  overflow: hidden;
+  width: 60vw;
 }
 
 .container3 {
-  position: fixed;
+  position: absolute;
   left: 12.5%;
   right: 12.5%;
-  top: 15%;
-  width: 75%;
-  height: 70%;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  overflow: scroll;
+  margin-top: 8%;
+  overflow: hidden;
+}
+
+.container4 {
+  background: linear-gradient(rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.082));
+  position: absolute;
+  left: 4%;
+  margin-top: 8%;
+  border-style: solid;
+  border-color:rgb(34, 34, 34);
+  border-width: 0.2vw;
+  border-radius: 2vw;
+  box-shadow: 15px 15px 40px 0px rgba(34, 34, 34, 0.2);
+  padding: 10px;
+  overflow: hidden;
+  width: 90vw;
 }
 
 .item-container {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: inline-flex;
+  max-height: 70vh;
+  max-width: 80vw;
+  overflow: hidden;
 }
 
 .item2-container {
   display: inline-flex;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  max-height: 70vh;
+  max-width: 90vw;
+  overflow: scroll;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .item {
+  background: linear-gradient(rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.082));
   text-align: center;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 30px;
+  padding: 1.5vw;
   border-style: solid;
-  border-width: 2px;
+  border-width: 0.2vw;
   border-color:rgb(34, 34, 34);
-  border-radius: 20px;
-}
-
-.item:hover {
-  background-color:rgb(34, 34, 34, 10%)
+  border-radius: 2vw;
+  box-shadow: 3px 3px 10px 0px rgba(34, 34, 34, 0.2);
+  max-width: 20vw;
+  max-height: fit-content;
+  overflow: scroll;
 }
 
 .item2 {
@@ -158,41 +182,48 @@ aside {
 }
 
 .header {
-  display: inline-flex;
-  text-align: center;
-  background: transparent;
-  padding-top: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+  margin-top: 2vh;
 }
 
 .footer {
-  background: transparent;
   position: fixed;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
+  margin-bottom: 2vh;
+  z-index: 2;
+  background-color:rgb(34, 34, 34);
+  border-radius: 50px;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 3px 3px 10px 0px rgba(34, 34, 34, 0.2);
 }
 
 .icon {
-  background: transparent;
-  width: 25px;
+  width: 2vw;
   height: auto;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 }
 
 .nav-button {
   font-family: 'poppins-medium';
-  font-size: 16px;
+  font-size: 1.2vw;
   background: transparent;
   border-style: solid;
   border-color:rgb(34, 34, 34);
-  border-width: 2px;
+  border-width: 0.2vw;
   border-radius: 50px;
   padding: 2px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 1vw;
+  margin-right: 1vw;
   transition: all 0.1s;
   z-index: 1;
 }
@@ -200,55 +231,12 @@ aside {
 .nav-button:hover {
   background-color:rgb(34, 34, 34);
   color: white;
+  box-shadow: 3px 3px 10px 0px rgba(34, 34, 34, 0.2);
 }
 
 .nav-button:focus {
   background-color:rgb(34, 34, 34);
   color: white;
-}
-
-.small-input {
-  background-color: transparent;
-  border-style: solid;
-  border-width: 2px;
-  border-color:rgb(34, 34, 34);
-  border-radius: 50px;
-  padding: 10px;
-  width: 400px;
-  font-family: 'poppins-medium';
-  font-size: 18px;
-  text-align: center;
-}
-
-.small-input:focus {
-  outline: none;
-  background-color:rgb(34, 34, 34, 10%)
-}
-
-.large-input {
-  background-color: transparent;
-  border-style: solid;
-  border-width: 2px;
-  border-color:rgb(34, 34, 34);
-  border-radius: 25px;
-  padding: 10px;
-  width: 400px;
-  height: 100px;
-  font-family: 'poppins-medium';
-  font-size: 18px;
-  text-align: center;
-  text-wrap: balance;
-  resize: none;
-}
-
-.large-input:focus {
-  outline: none;
-  background-color:rgb(34, 34, 34, 10%)
-}
-
-.error {
-  font-family: 'poppins-italic';
-  font-size: 14px;
 }
 
 .overlay {
@@ -262,6 +250,10 @@ aside {
   background-color:rgb(34, 34, 34);
   color: white;
   text-align: center;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .item2:hover .overlay {
@@ -269,5 +261,17 @@ aside {
 }
 
 .label-container {
-  padding: 20px;
+  padding: 40px;
+}
+
+.image {
+  width: 15vw;
+  height: auto;
+  overflow: hidden;
+}
+
+.image2 {
+  width: 29vw;
+  height: auto;
+  overflow: hidden;
 }

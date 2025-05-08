@@ -1,6 +1,6 @@
 {
-  "homepage": "https://klkeehan.github.io/portfolio2",
-  "name": "personal-port",
+  "homepage": "https://klkeehan.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
