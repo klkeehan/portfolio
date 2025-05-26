@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.75ded1dc.css",
+    "main.js": "/portfolio/static/js/main.7594e62d.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/carbon-rerouting.jpg": "/portfolio/static/media/carbon-rerouting.3849d1bdce70bd6dd460.jpg",
+    "static/media/strokes-lyric-poster.jpg": "/portfolio/static/media/strokes-lyric-poster.f8812b288991fb46e885.jpg",
+    "static/media/jellies.jpg": "/portfolio/static/media/jellies.4962dd99af2fcf5c3046.jpg",
+    "static/media/chicago-album.jpg": "/portfolio/static/media/chicago-album.df4a0e6de8b0a5966a22.jpg",
+    "static/media/strokes-album-poster.jpg": "/portfolio/static/media/strokes-album-poster.b28faf46b4370f20f0b3.jpg",
+    "static/media/skincaread.png": "/portfolio/static/media/skincaread.1c9647040f9bdd408e34.png",
+    "static/media/cat-comic.png": "/portfolio/static/media/cat-comic.8ef9db6fdcfde2d4675e.png",
+    "static/media/bh-poster.png": "/portfolio/static/media/bh-poster.30ade628e1e88c500359.png",
+    "static/media/window.jpg": "/portfolio/static/media/window.b3495a9fff7366921ce8.jpg",
+    "static/media/exer-app.png": "/portfolio/static/media/exer-app.210e8a7a09ae04d361fa.png",
+    "static/media/Poppins-Italic.ttf": "/portfolio/static/media/Poppins-Italic.e373f6163127e2d469af.ttf",
+    "static/media/Poppins-Regular.ttf": "/portfolio/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/portfolio/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/todo-app.png": "/portfolio/static/media/todo-app.c8b9137dcffcb5c4dfeb.png",
+    "static/media/todo-list-app.png": "/portfolio/static/media/todo-list-app.fb3c9522e911b1103439.png",
+    "static/media/AzeretMono-Medium.ttf": "/portfolio/static/media/AzeretMono-Medium.aa8b572d0f1696e0b4df.ttf",
+    "static/media/AzeretMono-Bold.ttf": "/portfolio/static/media/AzeretMono-Bold.8d57fcf9ad354f95bc0f.ttf",
+    "static/media/quiz-app.png": "/portfolio/static/media/quiz-app.627edef4c1af81c13199.png",
+    "static/media/mail.png": "/portfolio/static/media/mail.9e3f45bf9f236d8705dc.png",
+    "static/media/InBug-White.png": "/portfolio/static/media/InBug-White.183c507635f8f18f6138.png",
+    "index.html": "/portfolio/index.html",
+    "main.75ded1dc.css.map": "/portfolio/static/css/main.75ded1dc.css.map",
+    "main.7594e62d.js.map": "/portfolio/static/js/main.7594e62d.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75ded1dc.css",
+    "static/js/main.7594e62d.js"
+  ]
+}
