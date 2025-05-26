@@ -8,9 +8,9 @@ import '../App.css';
 const Footer = () => {
     return (
         <div className='footer'>
-            <a href='https://www.linkedin.com/in/karissa-keehan/'><motion.img src={linkedinLogo} className='icon' alt='LinkedIn logo' whileHover={{scale: 1.5}}></motion.img></a>
-            <a href='https://github.com/klkeehan'><motion.img src={gitLogo} className='icon' alt='GitHub logo' whileHover={{scale: 1.5}}></motion.img></a>
-            <a href='mailto:klkeehan@gmail.com'><motion.img src={mailicon} className='icon' alt='mail icon' whileHover={{scale: 1.5}}></motion.img></a>
+            <a href='https://www.linkedin.com/in/karissa-keehan/'><motion.img src={linkedinLogo} className='icon' alt='LinkedIn logo' whileHover={{scale: 1.2}}></motion.img></a>
+            <a href='https://github.com/klkeehan'><motion.img src={gitLogo} className='icon' alt='GitHub logo' whileHover={{scale: 1.2}}></motion.img></a>
+            <a href='mailto:klkeehan@gmail.com'><motion.img src={mailicon} className='icon' alt='mail icon' whileHover={{scale: 1.2}}></motion.img></a>
         </div>
     );
 };

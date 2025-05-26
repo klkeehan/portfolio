@@ -6,9 +6,9 @@ const Item = ({img, title, desc, link, lName, alt}) => {
     return (
         <motion.div className='item' whileHover={{}}>
             <img src={img} className='image' alt={alt}></img>
-            <h6>{title}</h6>
+            <h1>{title}</h1>
             <h3>{desc}</h3>
-            <a href={link}><motion.button className='nav-button' whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}>{lName}</motion.button></a>
+            <a href={link}><motion.button className='nav-button' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>{lName}</motion.button></a>
         </motion.div>
     );
 };

@@ -10,7 +10,7 @@ function App() {
   let homePg = (
     <div className='container'>
       <h5>Karissa Keehan</h5>
-      <p className='h7'>WEB DEVELOPMENT & DESIGN PORTFOLIO</p>
+      <p className='h7'>web development & design</p>
     </div>
   );
 
