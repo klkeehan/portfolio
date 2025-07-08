@@ -27,33 +27,25 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(-45deg, #ffcccb, #d3c9ff, #c8f0ff, #d6ffd0);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+
   width: 100vw;
   min-width: 450px;
+
   height: 100vh;
   min-height: 450px;
+
+  background-image: url('images/gradient.jpg');
+  background-size: cover;
   color: rgb(34, 34, 34);
   scroll-behavior: smooth;
   overflow: hidden;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 h1 {
   font-family: 'azeret-medium';
-  font-size: 1.7vw;
+  font-size: 1.5vw;
+  padding: 40px;
+  line-height: 1.8;
 }
 
 h2 {
@@ -65,6 +57,8 @@ h2 {
 h3 {
   font-family: 'poppins-italic';
   font-size: 1.2vw;
+
+  padding: 5px;
 }
 
 h4 {
@@ -92,87 +86,106 @@ h6 {
   margin-top: 4vh;
 }
 
-aside {
-  display: inline-flex;
+.h8 {
+  font-family: 'azeret-medium';
+  font-size: 1.7vw;
+  margin-top: 5vh;
+  padding: 10px;
+}
+
+.h9 {
+  font-family: 'azeret-medium';
+  font-size: 1.7vw;
 }
 
 .container {
-  position: relative;
-  top: 45%;
-  transform: translate(0, -40%);
-  margin-left: 12.5vw;
-  overflow: hidden;
-  width: 75vw;
+  position: absolute;
+  align-content: center;
+
+  width: 80vw;
+  left: 10vw;
+
+  height: 60vh;
+  top: 20vh;
 }
 
 .container2 {
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.082));
   position: absolute;
-  left: 17%;
-  margin-top: 8%;
+  overflow: auto;
+  align-content: center;
+
+  width: 80vw;
+  left: 10vw;
+
+  height: 70vh;
+  top: 15vh;
+
   border-style: solid;
   border-color: rgb(34, 34, 34);
   border-width: 0.2vw;
   border-radius: 2vw;
-  box-shadow: 15px 15px 40px 0px rgba(34, 34, 34, 0.2);
-  padding: 30px;
-  overflow: hidden;
-  width: 60vw;
+  box-shadow: 15px 15px 40px 0px rgba(34, 34, 34, 0.1);
 }
 
 .container3 {
   position: absolute;
-  left: 12.5%;
-  right: 12.5%;
-  margin-top: 8%;
-  overflow: hidden;
+  align-content: center;
+
+  width: 90vw;
+  left: 5vw;
+
+  height: 70vh;
+  top: 15vh;
 }
 
 .container4 {
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.082));
   position: absolute;
-  left: 4%;
-  margin-top: 6%;
+  
+  width: 92vw;
+  left: 4vw;
+
+  height: 75vh;
+  top: 12.5vh;
+
   border-style: solid;
   border-color:rgb(34, 34, 34);
   border-width: 0.2vw;
   border-radius: 2vw;
-  box-shadow: 15px 15px 40px 0px rgba(34, 34, 34, 0.2);
-  padding: 10px;
-  overflow: hidden;
-  width: 90vw;
+  box-shadow: 15px 15px 40px 0px rgba(34, 34, 34, 0.1);
+}
+
+aside {
+  float: left;
 }
 
 .item-container {
   display: inline-flex;
-  max-height: 70vh;
-  max-width: 80vw;
-  overflow: hidden;
 }
 
 .item2-container {
   display: inline-flex;
-  max-height: 70vh;
-  max-width: 90vw;
+  height: 72vh;
+  width: 90vw;
   overflow: auto;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .item {
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.082));
-  text-align: center;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding: 1.5vw;
+  align-content: center;
+  overflow: auto;
+
+  width: 42vw;
+  height: 45vh;
+
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+
   border-style: solid;
   border-width: 0.2vw;
   border-color:rgb(34, 34, 34);
   border-radius: 2vw;
   box-shadow: 3px 3px 10px 0px rgba(34, 34, 34, 0.1);
-  max-width: 18vw;
-  max-height: fit-content;
-  overflow: auto;
 }
 
 .item2 {
@@ -189,7 +202,7 @@ aside {
   left: 50%;
   transform: translate(-50%);
   z-index: 1;
-  margin-top: 2vh;
+  margin-top: 4vh;
 }
 
 .footer {
@@ -197,14 +210,14 @@ aside {
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
-  margin-bottom: 2vh;
+  margin-bottom: 4vh;
   z-index: 2;
   background-color:rgb(34, 34, 34);
   border-radius: 50px;
-  padding: 8px;
+  padding: 7px;
   padding-left: 10px;
   padding-right: 10px;
-  box-shadow: 3px 3px 10px 0px rgba(34, 34, 34, 0.2);
+  box-shadow: 3px 3px 10px 0px rgba(34, 34, 34, 0.1);
 }
 
 .icon {
@@ -227,9 +240,8 @@ aside {
   padding-right: 10px;
   margin-left: 1vw;
   margin-right: 1vw;
-  transition: all 0.1s;
   z-index: 1;
-  box-shadow: 3px 3px 10px 0px rgba(34, 34, 34, 0.2);
+  box-shadow: 3px 3px 10px 0px rgba(34, 34, 34, 0.1);
 }
 
 .nav-button:hover {
@@ -245,6 +257,8 @@ aside {
 
 .overlay {
   position: absolute;
+  align-content: center;
+
   top: 0;
   bottom: 0;
   left: 0;
@@ -269,9 +283,9 @@ aside {
 }
 
 .image {
-  width: 15vw;
-  height: auto;
-  overflow: hidden;
+  height: 40vh;
+  padding: 10px;
+  padding-left: 20px;
 }
 
 .image2 {

@@ -2,8 +2,7 @@ import React from 'react';
 import {motion} from 'motion/react';
 import Item from './Item';
 import exerimg from '../images/exer-app.png';
-import todoimg from '../images/todo-app.png';
-import quizimg from '../images/quiz-app.png';
+import todoimg from '../images/todo-app.jpg';
 import '../App.css';
 
 const ProjPage = () => {
@@ -12,7 +11,6 @@ const ProjPage = () => {
             <div className='item-container'>
                 <Item img={exerimg} title='Exercise App' desc='a reactJS app with counters and timers for repetition, duration, and lap style exercises' link='https://github.com/klkeehan/exercises-app' lName='GitHub Repo' alt='Exercise App'/>
                 <Item img={todoimg} title='To-Do App' desc='a react native app where you can add and remove tasks from a list' link='https://github.com/klkeehan/todo-list' lName='GitHub Repo' alt='To-Do App'/>
-                <Item img={quizimg} title='Quiz App' desc='a react native app with multiple choice and multi-answer questions and score calculation' link='https://github.com/klkeehan/quiz-app' lName='GitHub Repo' alt='Quiz App'/>
             </div>
         </motion.div>
     );
