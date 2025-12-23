@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2802ec8c.css",
+    "main.css": "/portfolio/static/css/main.8eb6c1c0.css",
     "main.js": "/portfolio/static/js/main.171f0763.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/carbon-rerouting.jpg": "/portfolio/static/media/carbon-rerouting.3849d1bdce70bd6dd460.jpg",
@@ -11,8 +11,8 @@
     "static/media/skincaread.png": "/portfolio/static/media/skincaread.1c9647040f9bdd408e34.png",
     "static/media/cat-comic.png": "/portfolio/static/media/cat-comic.8ef9db6fdcfde2d4675e.png",
     "static/media/bh-poster.png": "/portfolio/static/media/bh-poster.30ade628e1e88c500359.png",
+    "static/media/a.png": "/portfolio/static/media/a.f76bc7195f1ad24aa4b4.png",
     "static/media/window.jpg": "/portfolio/static/media/window.b3495a9fff7366921ce8.jpg",
-    "static/media/a.png": "/portfolio/static/media/a.629f9cf38c1afe41d508.png",
     "static/media/Manrope-SemiBold.ttf": "/portfolio/static/media/Manrope-SemiBold.c3189b18688e4f3e0d86.ttf",
     "static/media/Manrope-Medium.ttf": "/portfolio/static/media/Manrope-Medium.7466db90c04f3efe29bf.ttf",
     "static/media/todo-list-app.png": "/portfolio/static/media/todo-list-app.fb3c9522e911b1103439.png",
@@ -21,12 +21,12 @@
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.52cff6182cff7d8a9129.png",
     "static/media/home.png": "/portfolio/static/media/home.da110af4c1dcaf7f5a19.png",
     "index.html": "/portfolio/index.html",
-    "main.2802ec8c.css.map": "/portfolio/static/css/main.2802ec8c.css.map",
+    "main.8eb6c1c0.css.map": "/portfolio/static/css/main.8eb6c1c0.css.map",
     "main.171f0763.js.map": "/portfolio/static/js/main.171f0763.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2802ec8c.css",
+    "static/css/main.8eb6c1c0.css",
     "static/js/main.171f0763.js"
   ]
 }
