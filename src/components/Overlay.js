@@ -1,12 +1,12 @@
+import '../App.css';
+
 const Overlay = ({title, desc}) => {
     return (
         <div className='overlay'>
-            <div className='label-container'>
-                <p className='h9'>{title}</p>
-                <h3>{desc}</h3>
-            </div>
+            <h3>{title}</h3>
+            <p>{desc}</p>
         </div>
-    );
+    )
 };
 
 export default Overlay;

@@ -1,18 +1,13 @@
-import React from 'react';
-import {motion} from 'motion/react';
+import Overlay from './Overlay';
 import '../App.css';
 
-const Item = ({img, title, desc, link, lName, alt}) => {
+const Item = ({img, title, desc, alt}) => {
     return (
-        <motion.div className='item' whileHover={{}}>
-            <aside>
-                <img src={img} className='image' alt={alt}></img>
-            </aside>
-            <p className='h8'>{title}</p>
-            <h3>{desc}</h3>
-            <a href={link}><motion.button className='nav-button' whileHover={{scale: 1.1}} whileTap={{scale: 0.9}}>{lName}</motion.button></a>
-        </motion.div>
-    );
+        <div className='item'>
+            <img src={img} alt={alt} style={{width:'100%'}}></img>
+            <Overlay title={title} desc={desc} />
+        </div>
+    )
 };
 
 export default Item;
