@@ -3,7 +3,6 @@ import '../App.css';
 const Development = () => {
     return (
         <div id='development' className='container'>
-            <h2>development</h2>
             <div className='proj-grid'>
                 <div className='dev-proj'>
                     <h3>Exercise App</h3>
