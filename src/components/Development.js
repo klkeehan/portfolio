@@ -20,9 +20,9 @@ const Development = () => {
                     <a href='https://students.gaim.ucf.edu/~ka822136/dig3134/assignment06/login.php' className='link'>link↗</a>
                 </div>
                 <div className='dev-proj'>
-                    <h3>To-Do App</h3>
-                    <p>A React Native app for adding and removing tasks from a task list.</p>
-                    <a href='https://github.com/klkeehan/todo-list' className='link'>github↗</a>
+                    <h3>Pommedoro</h3>
+                    <p>A simple pomodoro-style timer created with HTML, JavaScript, and CSS .</p>
+                    <a href='https://github.com/klkeehan/pommedoro' className='link'>github↗</a>
                 </div>
             </div>
       </div>
