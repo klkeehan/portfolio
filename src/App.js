@@ -23,7 +23,7 @@ function App() {
           CSS, React, PHP, and MySQL. I really enjoy projects that allow me to write code and create designs. I am experienced 
           in Adobe Suite, Figma, and Canva, and love creating clean, accessible, and engaging designs. I created this site using the 
           React library, CSS styling, and Adobe Illustrator designs. I'm always looking to learn more: I currently work in IT 
-          which has further developed my database management and communication skills. Click <a href='https://drive.google.com/file/d/1XM8zkgCWT-3ZdOdirdS15PM3MFZLzJQi/view?usp=sharing' target='_blank' className='link' style={{fontSize: '1.5rem'}}>here</a> to view my resume.<br></br>
+          which has further developed my database management and communication skills. Click <a href='https://docs.google.com/document/d/1sbVylOuno8qSkcgz9LmmudVH9kB9vhwJNgjFJi7RMIc/edit?usp=sharing' target='_blank' className='link' style={{fontSize: '1.5rem'}}>here</a> to view my resume.<br></br>
         Thank you for visiting my portfolio! <span>☺︎</span></p>
       </div>
       <div className='spacer'></div>
