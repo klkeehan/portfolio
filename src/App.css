@@ -20,6 +20,12 @@
 .dis-ani * {
   animation: none !important;
   transition: none !important;
+  .nav:hover {
+    top: 0;
+  }
+  .link::after {
+    height: 0rem;
+  }
 }
 
 .app {
@@ -138,12 +144,17 @@ form {
   box-shadow: 0.2rem 0.2rem var(--grey);
   border-radius: 10px;
   font-family: 'manrope';
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
   padding-left: 0.7rem;
   padding-right: 0.7rem;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
-  margin-top: 1.2rem;
+  position: fixed;
+  right: 5.5rem;
+  bottom: 2.3rem;
+  width: 5.4rem;
+  height: 2.5rem;
 }
 
 .btn:hover {
