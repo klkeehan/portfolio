@@ -14,7 +14,12 @@
 }
 
 :root {
-  --grey: #1d1d1d;
+  --grey: #1b1a17;
+}
+
+.dis-ani * {
+  animation: none !important;
+  transition: none !important;
 }
 
 .app {
@@ -30,7 +35,7 @@
   padding-left: 12rem;
   padding-right: 12rem;
 
-  background-image: url('images/bg.png');
+  background-image: url('images/bg.jpg');
   background-repeat: repeat;
   background-size: contain;
   color: var(--grey);
@@ -44,7 +49,7 @@ html {
 h1 {
   font-family: 'dg';
   font-size: 7.5rem;
-  letter-spacing: -0.5rem;
+  letter-spacing: -0.2rem;
   line-height: 7rem;
   margin-bottom: 2rem;
 }
@@ -80,6 +85,95 @@ a {
   font-size: 1.1rem;
 }
 
+input {
+  background-color: #fffff0;
+  border: var(--grey) 0.1rem solid;
+  border-radius: 1rem;
+  width: 96%;
+  height: 2rem;
+  font-family: 'manrope';
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 175%;
+  padding-left: 8px;
+}
+
+textarea {
+  background-color: #fffff0;
+  border: var(--grey) 0.1rem solid;
+  border-radius: 1rem;
+  resize: none;
+  width: 96%;
+  font-family: 'manrope';
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  line-height: 175%;
+  padding-left: 8px;
+}
+
+input:focus, textarea:focus {
+  background-color: #D8F0DC;
+  outline: none;
+}
+
+form {
+  width: 40rem;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: ivory;
+  border: var(--grey) 0.1rem solid;
+  box-shadow: 0.2rem 0.2rem var(--grey);
+  border-radius: 1rem;
+}
+
+.btn {
+  background-color: #D9FFFD;
+  border: var(--grey) 0.1rem solid;
+  box-shadow: 0.2rem 0.2rem var(--grey);
+  border-radius: 10px;
+  font-family: 'manrope';
+  font-size: 1.1rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-top: 1.2rem;
+}
+
+.btn:hover {
+  background-color: #8DD1EE;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: #D9FFFD;
+  border: var(--grey) 0.1rem solid;
+  border-radius: 10px;
+  font-family: 'manrope';
+  font-size: 1.1rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+.submit-btn:hover {
+  background-color: #8DD1EE;
+  cursor: pointer;
+}
+
+.text {
+  font-family: 'manrope';
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
 .nav {
   position: fixed;
   top: 0;
@@ -108,9 +202,7 @@ a {
 
 .icon {
   width: 3rem;
-  padding-left: -1rem;
-  margin-top: 1.2rem;
-  margin-bottom: 2rem;
+  height: 3rem;
   margin-right: 0.8rem;
   box-shadow: 0.2rem 0.2rem var(--grey);
   border-radius: 20rem;
@@ -168,7 +260,7 @@ a {
 }
 
 .link {
-  color: #7D84B2;
+  color: #8DD1EE;
   text-decoration: none;
   position: relative;
 }
@@ -180,7 +272,7 @@ a {
 	left: 0;
 	bottom: 0;
 	width: 0;
-	background-color: #7D84B2;
+	background-color: #8DD1EE;
 	transition: width 0.2s;
 }
 
@@ -264,7 +356,16 @@ a {
   h2 {
     font-size: 2rem;
   }
+  .nav {
+    font-size: 1rem;
+    width: fit-content;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
   .icon {
     margin-bottom: 0rem;
+  }
+  form {
+    width: 21rem;
   }
 }
