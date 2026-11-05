@@ -10,11 +10,7 @@
 
 @font-face {
   font-family: 'dg';
-  src: url('fonts/DelaGothicOne-Regular.ttf');
-}
-
-:root {
-  --grey: #1b1a17;
+  src: url('fonts/mervola.regular.ttf');
 }
 
 .dis-ani * {
@@ -38,14 +34,11 @@
 
   box-sizing: border-box;
   padding-top: 4rem;
-  padding-left: 12rem;
-  padding-right: 12rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 1rem;
 
-  background-image: url('images/bg.jpg');
-  background-repeat: repeat;
-  background-size: contain;
-  color: var(--grey);
-  overflow: hidden;
+  background: #2F2822;
 }
 
 html {
@@ -54,17 +47,21 @@ html {
 
 h1 {
   font-family: 'dg';
-  font-size: 7.5rem;
+  font-size: 7rem;
+  font-weight: 1000;
   letter-spacing: -0.2rem;
   line-height: 7rem;
-  margin-bottom: 2rem;
+  margin-top: 20vh;
+  margin-bottom: 10px;
+  color: #fffcf6;
 }
 
 h2 {
   font-family: 'manrope-bold';
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #fffcf6;
 }
 
 h3 {
@@ -72,6 +69,7 @@ h3 {
   font-size: 1.3rem;
   margin-top: 1rem;
   margin-bottom: 0;
+  color: #fffcf6;
 }
 
 p span {
@@ -84,16 +82,18 @@ p {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   line-height: 175%;
+  color: #fffcf6;
 }
 
 a {
   font-family: 'manrope';
   font-size: 1.1rem;
+  color: #fffcf6;
 }
 
 input {
-  background-color: #fffff0;
-  border: var(--grey) 0.1rem solid;
+  background-color: #fffcf6;
+  border: #2a261d 0.1rem solid;
   border-radius: 1rem;
   width: 96%;
   height: 2rem;
@@ -106,8 +106,8 @@ input {
 }
 
 textarea {
-  background-color: #fffff0;
-  border: var(--grey) 0.1rem solid;
+  background-color: #fffcf6;
+  border: #fffcf6 0.1rem solid;
   border-radius: 1rem;
   resize: none;
   width: 96%;
@@ -120,29 +120,28 @@ textarea {
 }
 
 input:focus, textarea:focus {
-  background-color: #D8F0DC;
   outline: none;
 }
 
 form {
-  width: 40rem;
+  width: 50vw;
   margin-right: 1%;
   margin-bottom: 2%;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: ivory;
-  border: var(--grey) 0.1rem solid;
-  box-shadow: 0.2rem 0.2rem var(--grey);
+  border: #fffcf6 0.1rem solid;
   border-radius: 1rem;
 }
 
 .btn {
-  background-color: #D9FFFD;
-  border: var(--grey) 0.1rem solid;
-  box-shadow: 0.2rem 0.2rem var(--grey);
+  background-color:#EAFFC5;
+  border: #fffcf6 0.1rem solid;
   border-radius: 10px;
+  outline: #2a261d 0.1rem solid;
+  transition: top 0.3s ease-in-out;
+  box-shadow: 0px 0px 0px 0.2rem #fffcf6;
   font-family: 'manrope';
   font-size: 0.8rem;
   line-height: 0.8rem;
@@ -152,20 +151,21 @@ form {
   padding-bottom: 0.3rem;
   position: fixed;
   right: 5.5rem;
-  bottom: 2.3rem;
+  bottom: 2rem;
   width: 5.4rem;
   height: 2.5rem;
   z-index: 10;
 }
 
 .btn:hover {
-  background-color: #8DD1EE;
   cursor: pointer;
 }
 
 .submit-btn {
-  background-color: #D9FFFD;
-  border: var(--grey) 0.1rem solid;
+  background-color: #EAFFC5;
+  border: 0px none;
+  outline: #2a261d 0.05rem solid;
+  box-shadow: 0px 0px 0px 0.2rem #fffcf6;
   border-radius: 10px;
   font-family: 'manrope';
   font-size: 1.1rem;
@@ -174,7 +174,6 @@ form {
 }
 
 .submit-btn:hover {
-  background-color: #8DD1EE;
   cursor: pointer;
 }
 
@@ -184,6 +183,7 @@ form {
   font-weight: 600;
   margin-top: 1rem;
   margin-bottom: 0;
+  color: #fffcf6;
 }
 
 .nav {
@@ -191,21 +191,20 @@ form {
   top: 0;
   z-index: 10;
   font-family: 'manrope-bold';
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   margin-top: -4rem;
-  margin-right: 1rem;
   margin-bottom: 1rem;
   padding-top: 5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
   text-decoration: none;
-  color: var(--grey);
+  color: #2a261d;
   border-radius: 1rem;
-  outline: var(--grey) 0.1rem solid;
-  box-shadow: 0.2rem 0.2rem var(--grey);
+  outline: #2a261d 0.1rem solid;
   transition: top 0.3s ease-in-out;
+  box-shadow: 0px 0px 0px 0.2rem #fffcf6;
 }
 
 .nav:hover {
@@ -216,10 +215,10 @@ form {
   width: 3rem;
   height: 3rem;
   margin-right: 0.8rem;
-  box-shadow: 0.2rem 0.2rem var(--grey);
   border-radius: 20rem;
-  background-color: var(--grey);
-  outline: var(--grey) 0.1rem solid;
+  border: 0px none;
+  outline: #2a261d 0.05rem solid;
+  box-shadow: 0px 0px 0px 0.2rem #fffcf6;
   transition: transform 1.5s ease-in-out;
 }
 
@@ -228,15 +227,15 @@ form {
 }
 
 .home {
-  width: 3rem;
+  width: 2.7rem;
   position: fixed;
-  right: 1.8rem;
+  right: 2rem;
   bottom: 2rem;
   z-index: 10;
-  outline: var(--grey) 0.1rem solid;
-  box-shadow: 0.2rem 0.2rem var(--grey);
+  border: 0px none;
+  outline: #2a261d 0.05rem solid;
+  box-shadow: 0px 0px 0px 0.2rem #fffcf6;
   border-radius: 20rem;
-  background-color: var(--grey);
   transition: transform 1.5s ease-in-out;
 }
 
@@ -265,14 +264,12 @@ form {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
-  background-color: ivory;
-  border: var(--grey) 0.1rem solid;
-  box-shadow: 0.2rem 0.2rem var(--grey);
-  border-radius: 1rem;
+  border-radius: 14px;
+  outline: #fffcf6 0.1rem solid;
 }
 
 .link {
-  color: #8DD1EE;
+  color: #EAFFC5;
   text-decoration: none;
   position: relative;
 }
@@ -284,7 +281,7 @@ form {
 	left: 0;
 	bottom: 0;
 	width: 0;
-	background-color: #8DD1EE;
+	background-color: #EAFFC5;
 	transition: width 0.2s;
 }
 
@@ -316,7 +313,7 @@ form {
 
 .overlay {
   position: absolute;
-  background-color: var(--grey);
+  background-color: black;
   color: ivory;
   top: 0;
   bottom: 0;
@@ -351,9 +348,6 @@ form {
   .app {
     padding: 4rem;
   }
-  h1 {
-    font-size: 6.5rem;
-  }
 }
 
 @media screen and (max-width: 500px) {
@@ -361,23 +355,24 @@ form {
     padding: 2.5rem;
   }
   h1 {
-    font-size: 4.5rem;
+    font-size: 6.5rem;
     letter-spacing: -0.4rem;
-    line-height: 5rem;
+    line-height: 6rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
   }
   .nav {
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: fit-content;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .icon {
     margin-bottom: 0rem;
   }
   form {
-    width: 21rem;
+    width: 70vw;
   }
 }

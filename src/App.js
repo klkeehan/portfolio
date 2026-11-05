@@ -29,10 +29,10 @@ function App() {
   return (
     <div id='home' className='app'>
       <div className='navbar'>
-        <a href='#about' className='nav' style={{backgroundColor: '#8DD1EE'}}>about</a>
-        <a href='#development' className='nav' style={{backgroundColor: '#D9FFFD', marginLeft: '100px'}}>dev</a>
-        <a href='#design' className='nav' style={{backgroundColor: '#A5E5E5', marginLeft: '180px'}}>design</a>
-        <a href='#contact' className='nav' style={{backgroundColor: '#D8F0DC', marginLeft: '290px'}}>contact</a>
+        <a href='#about' className='nav' style={{backgroundColor: '#C4FFE5'}}>about</a>
+        <a href='#development' className='nav' style={{marginLeft: '110px', backgroundColor: '#C4F4FF'}}>dev</a>
+        <a href='#design' className='nav' style={{marginLeft: '193px', backgroundColor: '#C4C9FF'}}>design</a>
+        <a href='#contact' className='nav' style={{marginLeft: '313px', backgroundColor: '#E0C4FF'}}>contact</a>
       </div>
       <a href='#home'><img src={home} className='home' alt='home icon'></img></a>
       <h1>Karissa Keehan</h1>
