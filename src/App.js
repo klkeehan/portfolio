@@ -42,9 +42,9 @@ function App() {
       <div className='spacer'></div>
       <div id='about' className='container'>
         <h2>about me</h2>
-        <p style={{fontSize: '1.5rem'}}>Hi! I'm Karissa, a student at the University of Central Florida studying digital media through the web design track. I have experience with both low-code platforms like WordPress, and with coding sites and applications via HTML, JavaScript, CSS, React, PHP, and more. Frontend development using React is particularly enjoyable to me, and I'm always engaged by the CSS-based design process. 
+        <p style={{fontSize: '1.5rem'}}>Hi! I'm Karissa, a web developer and designer. I have experience with both low-code platforms like WordPress, and with coding sites and applications via HTML, JavaScript, CSS, React, PHP, and more. Frontend development using React is particularly enjoyable to me, and I'm always engaged by the CSS-based design process. 
           I really enjoy projects that allow me to write code and create designs. I have experience with Adobe Suite and Canva, and love creating clean, accessible, and engaging content.
-          <br></br><br></br>I created this site using React and CSS styling. I'm always looking to learn more: I currently work in IT which has further developed my problem solving and communication skills. Click <a href='https://docs.google.com/document/d/1sbVylOuno8qSkcgz9LmmudVH9kB9vhwJNgjFJi7RMIc/edit?usp=sharing' target='_blank' className='link' style={{fontSize: '1.5rem'}}>here</a> to view my resume.<br></br><br></br>
+          <br></br><br></br>I created this site using React and CSS styling. Click <a href='https://docs.google.com/document/d/1sbVylOuno8qSkcgz9LmmudVH9kB9vhwJNgjFJi7RMIc/edit?usp=sharing' target='_blank' className='link' style={{fontSize: '1.5rem'}}>here</a> to view my resume.<br></br><br></br>
           Thank you for visiting my portfolio! <span>☺︎</span></p>
       </div>
       <div className='spacer'></div>
